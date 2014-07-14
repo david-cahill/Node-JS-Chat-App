@@ -7,5 +7,10 @@ html
 	body
 		#content(style='width: 500px; height:300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
 		.controls
-			input.field(id='field', style='width:350px;')
-			input.send(id='send', type='button', value='send')
+			label(for='name') Username
+			input#name(style='width:350px;')
+			br
+			label(for='field') Message
+			input#field(style='width:350px;')
+			br
+			input#send(type='button', value='send')
