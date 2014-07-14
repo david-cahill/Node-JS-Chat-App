@@ -1,0 +1,11 @@
+{
+	"name":"DCChatApp",
+	"version": "0.0.1",
+	"description":"Online Chat App built on Node JS",
+	"dependencies": {
+		"socket.io": "latest",
+		"express": "latest",
+		"jade": "latest"
+	},
+	"author": "David Cahill"
+}
